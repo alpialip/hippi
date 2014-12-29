@@ -1,0 +1,6 @@
+1. open const.php, change necessary config parameters.
+2. open browser, access $HIPPI_HOME/Login/Login.php.
+3. login with [username=su | password=sudo] for super-user (VIP Landing Page);
+4. or login with [username=user1 | password=asdf] for regular admin (Regular Landing Page).
+5. log out to destroy your logged credentials.
+6. ENJOY =)
