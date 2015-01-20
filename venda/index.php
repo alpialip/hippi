@@ -1,0 +1,769 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+  
+    <!-- Basic -->
+	<title>HIPPI | Home</title>
+    
+    <!-- Define Charset -->
+	<meta charset="utf-8">
+    
+    <!-- Responsive Metatag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Page Description and Author -->
+    <meta name="description" content="HIPPI - Himpunan Pengusaha Pribumi Indonesia ">
+    <meta name="@alpialip" content="ZoOm Arts">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    
+    <!-- Bootstrap CSS  -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+  
+    <!-- Revolution Banner CSS -->
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+  
+    <!-- Venda CSS Styles  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  
+    <!-- Responsive CSS Styles  -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+    
+    <!-- Css3 Transitions Styles  -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+  
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
+  
+    <!-- Fontello Icons CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" media="screen">
+    <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+    
+    
+    <!-- Venda JS  -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="js/modernizrr.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/count-to.js"></script>
+    <script type="text/javascript" src="js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	
+</head>
+<body>
+
+	<!-- Container -->
+	<div id="container">
+		
+        <!-- Start Header -->
+		<div class="hidden-header"></div>
+        <header class="clearfix">
+            
+            <!-- Start Top Bar -->
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+                            <!-- Start Contact Info -->
+							<ul class="contact-details">
+                            	<li><a href="#"><i class="icon-mobile-1"></i> +62 21 3909795</a></li>                              
+                                <li><a href="#"><i class="icon-mail-2"></i> info@hippi.co.id</a></li>
+                            </ul>
+                            <!-- End Contact Info -->
+						</div>
+						<div class="col-md-6">
+                            <!-- Start Social Links -->
+							<ul class="social-list">
+								<li>
+									<a class="facebook sh-tooltip" data-placement="bottom" title="Facebook" href="http://facebook.com"><i class="icon-facebook-2"></i></a>
+								</li>
+								<li>
+									<a class="twitter sh-tooltip" data-placement="bottom" title="Twitter" href="https://twitter.com/hippi_pusat"><i class="icon-twitter-2"></i></a>
+								</li>								
+							</ul>
+                            <!-- End Social Links -->
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- End Top Bar -->
+          
+			<!-- Start Header ( Logo & Naviagtion ) -->
+			<div class="navbar navbar-default navbar-top">
+				<div class="container">
+					<div class="navbar-header">
+                        <!-- Stat Toggle Nav Link For Mobiles -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<i class="icon-menu-1"></i>
+						</button>
+                        <!-- End Toggle Nav Link For Mobiles -->
+						<a class="navbar-brand" href="index.html"><img alt="" src="images/hippi_small.png"></a>
+					</div>
+					<div class="navbar-collapse collapse">
+                        <!-- Stat Search -->
+                    	<div class="search-side">
+                            <a href="#" class="show-search"><i class="icon-search-1"></i></a>
+                            <div class="search-form">
+                                <form autocomplete="off" role="search" method="get" class="searchform" action="#">
+                                    <input type="text" value="" name="s" id="s" placeholder="Search the site...">
+                                </form>
+                            </div>
+                        </div>
+                        <!-- End Search -->
+                        <!-- Start Navigation List -->
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a class="active" href="index.html">Home</a>
+                                <ul class="dropdown">
+					<!-- 			<li><a class="active" href="index.html">Home Main Version</a></li>
+                                    <li><a href="index-01.html">Home Version 1</a></li>
+									<li><a href="index-02.html">Home Version 2</a></li>
+                                    <li><a href="index-03.html">Home Version 3</a></li>
+                                    <li><a href="index-04.html">Home Version 4</a></li>
+                                    <li><a href="index-05.html">Home Version 5</a></li>
+                                    <li><a href="index-06.html">Home Version 6</a></li>
+                                    <li><a href="index-07.html">Home Version 7</a></li>
+                                    <li><a href="index-08.html">Home Version 8</a></li> -->
+								</ul>
+							</li>
+							<li>
+                                <a href="profil.html">Profile</a>
+                                <ul class="dropdown">
+                                    <li><a href="profil.html">HIPPI Profile</a></li>
+                                    <li><a href="sejarah.html">History</a></li>
+                                    <li><a href="visimisi.html">Vision and Mission</a></li>
+                                    <li><a href="susunanpengurus.html">Organization</a></li>
+                                    <li><a href="hippiwilayah.html">HIPPI Region</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="berita.html">News</a>                                
+                            </li>
+                            <li>
+                                <a href="kegiatan.html">Activity</a>                                
+                            </li>
+                            <li>
+                                <a href="galeri.html">Galery</a>                                
+                            </li>
+                            <!-- <li>
+								<a href="about.html">Pages</a>
+								<ul class="dropdown">
+									<li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                                    <li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="404.html">404 Page</a></li>
+								</ul>
+							</li>
+                            <li>
+								<a href="#">Shortcodes</a>
+								<ul class="dropdown">
+									<li><a href="tabs.html">Tabs</a></li>
+                                    <li><a href="lists.html">Lists</a></li>
+                                    <li><a href="alerts.html">Alerts</a></li>
+                                    <li><a href="divider.html">Divider</a></li>
+                                    <li><a href="buttons.html">Buttons</a></li>
+                                    <li><a href="dropcaps.html">Dropcaps</a></li>
+                                    <li><a href="action-box.html">Action Box</a></li>
+                                    <li><a href="icon-boxes.html">Icon Boxes</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="latest-posts.html">Latest Posts</a></li>
+                                    <li><a href="latest-projects.html">Latest Projects</a></li>
+                                    <li><a href="pricing.html">Pricing Tables</a></li>
+									<li><a href="animated-graphs.html">Animated Graphs</a></li>
+                                    <li><a href="accordion-toggles.html">Accordion & Toggles</a></li>
+                                    <li><a href="touch-slider-carousel.html">Touch Slider & Carousel</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="portfolio-3.html">Portfolio</a>
+								<ul class="dropdown">
+									<li><a href="portfolio-2.html">2 Columns</a></li>
+                                    <li><a href="portfolio-3.html">3 Columns</a></li>
+									<li><a href="portfolio-4.html">4 Columns</a></li>
+                                    <li><a href="single-project.html">Single Project</a></li>
+								</ul>
+							</li>
+                            <li>
+								<a href="blog.html">Blog</a>
+								<ul class="dropdown">
+									<li><a href="blog.html">Blog - right Sidebar</a></li>
+                                    <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a></li>
+                                    <li><a href="single-post.html">Blog Single Post</a></li>
+								</ul>
+							</li> -->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+                        <!-- End Navigation List -->
+					</div>
+				</div>
+			</div>
+            <!-- End Header ( Logo & Naviagtion ) -->
+          
+		</header>
+		<!-- End Header -->
+      
+      
+      
+      
+		<!-- Start Home Slider -->
+		<div id="slider">
+        
+            <!-- START REVOLUTION SLIDER 3.1 rev5 fullwidth mode -->
+            <div class="fullwidthbanner-container">
+                <div class="fullwidthbanner" >
+                    <ul>
+                    
+                    	<!-- SLIDE 1 -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+                            <!-- MAIN IMAGE -->
+                            <img src="images/hippi.png" data-fullwidthcentering="on" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat"> 
+                        </li>
+                        
+                        <!-- SLIDE 2  -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+                            <!-- MAIN IMAGE -->
+                            <img src="images/charity.jpg" data-fullwidthcentering="on" alt="slidebg2"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        </li>
+                        
+                        <!-- SLIDE 3  -->
+                        <li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+                            <!-- MAIN IMAGE -->
+                            <img src="images/slide3.png" data-fullwidthcentering="on" alt="slidebg3"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">  
+                        </li>
+                        
+                    </ul>
+                    <div class="tp-bannertimer" style="visibility:hidden;"></div>
+                </div>
+            </div>
+            
+            <!-- THE SCRIPT INITIALISATION -->
+            <!-- LOOK THE DOCUMENTATION FOR MORE INFORMATIONS -->
+            <script type="text/javascript">
+                var revapi;
+                jQuery(document).ready(function() {
+					revapi = jQuery('.fullwidthbanner').revolution({
+						
+						delay:9000,
+						startwidth:1140,
+						startheight:450,
+						hideThumbs:200,
+						
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:3,
+						
+						navigationType:"none",
+						navigationArrows:"solo",
+						navigationStyle:"round",
+						
+						touchenabled:"on",
+						onHoverStop:"on",
+						
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+								
+						shadow:0,
+						fullWidth:"on",
+						fullScreen:"off",
+						lazyLoad:"on",
+
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						shuffle:"off",
+						
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0,	
+                	});
+                });
+            </script>
+                 
+        </div>
+        <!-- End Home Slider -->
+           
+        
+        
+		<!-- Start Full Width Sections Content -->
+		<div id="content" class="full-sections">
+        <!-- Divider -->
+            <div class="hr1" style="margin-top:25px; margin-bottom:25px;"></div>
+        
+        	<!-- Start Full Width Section 1 -->
+        	<div class="section" style="padding-top:60px; padding-bottom:30px; border-top:0; border-bottom:0; background:#fff">
+            	<div class="container">                    
+                    <!-- Start Recent Posts Carousel -->
+                <div class="latest-posts">
+                    <h4 class="classic-title"><span>Latest News</span></h4>
+                    <div class="latest-posts-classic custom-carousel touch-carousel" data-appeared-items="3">
+                        <?php 
+                        include "dbcon.php";
+                        $qrNews = "SELECT news_id,news_judul,news_tanggal, news_content
+                                    FROM news
+                                    ORDER BY news_tanggal DESC
+                                    LIMIT 0,6
+                                    "; 
+                        $getNews = mysql_query($qrNews);
+                        while($resultNews=mysql_fetch_assoc($getNews)) {
+                            $date = date("d",strtotime($resultNews['news_tanggal']));
+                            $month = date("M",strtotime($resultNews['news_tanggal']));
+                        ?>
+                            <div class="post-row item">
+                                <div class="left-meta-post">
+                                    <div class="post-date"><span class="day"><?php echo $date;?></span><span class="month"><?php echo $month;?></span></div>
+                                    <div class="post-type"><i class="icon-picture-3"></i></div>
+                                </div>
+                                <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1"><?php echo $resultNews['news_judul'];?></a></h3>
+                                <div class="post-content">
+                                    <p><?php echo $resultNews['news_content'];?><a class="read-more" href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1">Read More...</a></p>
+                                </div>
+                            </div>
+                        <?php
+                        }
+                        ?>
+                        <!-- Post 1 
+                        <div class="post-row item">
+                            <div class="left-meta-post">
+                                <div class="post-date"><span class="day">22</span><span class="month">Sep</span></div>
+                                <div class="post-type"><i class="icon-picture-3"></i></div>
+                            </div>
+                            <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1">3rd Charity Tournament Golf </a></h3>
+                            <div class="post-content">
+                                <p>3rd Charity Tournament Golf <a class="read-more" href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1">Read More...</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 2 
+                        <div class="post-row item">
+                            <div class="left-meta-post">
+                                <div class="post-date"><span class="day">13</span><span class="month">Mei</span></div>
+                                <div class="post-type"><i class="icon-picture-1"></i></div>
+                            </div>
+                            <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/468670656368738304">Penandatangan Mou HIPPI-Ditjen</a></h3>
+                            <div class="post-content">
+                                <p>Penandatangan Mou HIPPI-Ditjen Kementrian Perdagangan<a class="read-more" href="https://twitter.com/hippi_pusat/status/468670656368738304">Read More...</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 3 
+                        <div class="post-row item">
+                            <div class="left-meta-post">
+                                <div class="post-date"><span class="day">17</span><span class="month">Dec</span></div>
+                                <div class="post-type"><i class="icon-picture-1"></i></div>
+                            </div>
+                            <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/412794282689323008/photo/1">WEConnect International Indonesia</a></h3>
+                            <div class="post-content">
+                                <p>Bagi pengusaha perempuan yang berminat ingin menjadi pemasok perusahaan-perusahaan global <a class="read-more" href="https://twitter.com/hippi_pusat/status/412794282689323008/photo/1">Read More...</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 4 
+                        <div class="post-row item">
+                            <div class="left-meta-post">
+                                <div class="post-date"><span class="day">12</span><span class="month">Dec</span></div>
+                                <div class="post-type"><i class="icon-picture-1"></i></div>
+                            </div>
+                            <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/411046010677231616/photo/1">Asian Corporate Giants (ACG)</a></h3>
+                            <div class="post-content">
+                                <p>Keynote Address oleh Bayu krishnamurthi sebagai pembicara dalam acara Asian Corporate Giants (ACG) <a class="read-more" href="https://twitter.com/hippi_pusat/status/411046010677231616/photo/1">Read More...</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 5 
+                        <div class="post-row item">
+                            <div class="left-meta-post">
+                                <div class="post-date"><span class="day">20</span><span class="month">May</span></div>
+                                <div class="post-type"><i class="icon-picture-1"></i></div>
+                            </div>
+                            <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/347644518641827840/photo/1">Rakernas I</a></h3>
+                            <div class="post-content">
+                                <p>Opening Rakernas Ke-I at Manhattan Hotel with Ibu Melani, Bpk Sapta Nirwandar  <a class="read-more" href="https://twitter.com/hippi_pusat/status/347644518641827840/photo/1">Read More...</a></p>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 6 
+                        <div class="post-row item">
+                            <div class="left-meta-post">
+                                <div class="post-date"><span class="day">20</span><span class="month">Jun</span></div>
+                                <div class="post-type"><i class="icon-picture-1"></i></div>
+                            </div>
+                            <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/347643632125366272/photo/1">Musik sebagai anak tiri industri kreatif</a></h3>
+                            <div class="post-content">
+                                <p>Dialog Interaktif "Musik sebagai anak tiri industri kreatif" with Wamen Parekraf (Bpk. Sapta Nirwandar) & @dr_tompi  <a class="read-more" href="https://twitter.com/hippi_pusat/status/347643632125366272/photo/1">Read More...</a></p>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+                <!-- End Recent Posts Carousel -->
+                </div>
+            </div>
+            <!-- End Full Width Section 1 --> 
+            
+            <!-- Start Full Width Section 5 -->
+        	<div class="section" style="padding-top:60px; padding-bottom:60px; border-top:0; border-bottom:0; background:#fff;">
+                
+                    <!-- Start Big Heading -->
+                	<div class="big-title text-center" data-animation="fadeInDown" data-animation-delay="01">                    	
+                        <h1>Galeri <strong>HIPPI</strong></h1>
+                    </div>
+                    <!-- End Big Heading -->
+                    
+                  <!--   <p class="text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore<br/> veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p> -->
+                    
+                    <!-- Divider -->
+                    <div class="hr1" style="margin-bottom:25px;"></div>
+                            
+                	<!-- Start Recent Projects Carousel -->
+                    <div class="full-width-recent-projects">
+                        <div class="projects-carousel touch-carousel navigation-3">
+                          
+                            <!-- Start Project Item -->
+                            <!--div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb >
+                                    <div class="portfolio-thumb">
+                                        <a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">
+                                            <div class="thumb-overlay"><i class="icon-video-1"></i></div>
+                                            <img alt="" src="images/gal_1.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb >
+                                    <!-- Start Project Details >
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>Audiensi dengan Bapak Wakil Presiden RI</h4>
+                                           <!--  <span>Website</span>
+                                            <span>Drawing</span> -->
+                                        <!--/a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>5</span></a>
+                                    </div>
+                                    <!-- End Project Details >
+                                </div>
+                            </div-->
+                            <!-- End Project Item -->
+                             <?php 
+                                
+                                $qrGal = "SELECT galeri_judul, foto
+                                            FROM galeri
+                                            ORDER BY galeri_id DESC
+                                            LIMIT 0,8
+                                            "; 
+                                $getGal = mysql_query($qrGal);
+                                while($resultGal=mysql_fetch_assoc($getGal)) {
+                                   
+                                ?>
+                                     <!-- Start Project Item -->
+                                    <div class="portfolio-item item">
+                                        <div class="portfolio-border">
+                                            <!-- Start Project Thumb -->
+                                            <div class="portfolio-thumb">
+                                                <a class="lightbox" title="<?php echo $resultGal['galeri_judul'] ;?>" href="images/<?php echo $resultGal['foto'] ;?>">
+                                                    <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                                                    <img alt="" src="images/<?php echo $resultGal['foto'] ;?>" />
+                                                </a>
+                                            </div>
+                                            <!-- End Project Thumb -->
+                                            <!-- Start Project Details -->
+                                            <div class="portfolio-details">
+                                                <a href="#">
+                                                    <h4><?php echo $resultGal['galeri_judul'] ;?></h4>
+                                                    <!-- <span>Logo</span>
+                                                    <span>Animation</span> -->
+                                                </a>
+                                                <!--a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a-->
+                                            </div>
+                                            <!-- End Project Details -->
+                                        </div>
+                                    </div>
+                                    <!-- End Project Item -->
+                                <?php
+                                }
+                                ?>
+                           
+                            <!--
+                            <!-- Start Project Item 
+                            <div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb 
+                                    <div class="portfolio-thumb">
+                                        <a href="#">
+                                            <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                            <img alt="" src="images/gal_3.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb
+                                    <!-- Start Project Details 
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>Asian Corporate Giants (ACG)</h4>
+                                            <!-- <span>Animation</span> 
+                                        </a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>2</span></a>
+                                    </div>
+                                    <!-- End Project Details
+                                </div>
+                            </div>
+                            <!-- End Project Item 
+                          
+                            <!-- Start Project Item 
+                            <div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb 
+                                    <div class="portfolio-thumb">
+                                        <a class="lightbox" title="This is an image title" href="http://placehold.it/1024x620/eee">
+                                            <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                                            <img alt="" src="images/gal_4.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb 
+                                    <!-- Start Project Details
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>With Wagub DKI Jakarta</h4>
+                                            <!-- <span>Website</span> 
+                                        </a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>9</span></a>
+                                    </div>
+                                    <!-- End Project Details 
+                                </div>
+                            </div>
+                            <!-- End Project Item 
+                            
+                            <!-- Start Project Item 
+                            <div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb 
+                                    <div class="portfolio-thumb">
+                                        <a href="#">
+                                            <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                            <img alt="" src="images/gal_5.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb -->
+                                    <!-- Start Project Details 
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>Ketua Umum (Suryani S.Motik) dan Sekjen (Herman H. Suprobo) with new branding HIPPI</h4>
+                                            <!-- <span>Ilustration</span>
+                                            <span>Animation</span> 
+                                        </a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>12</span></a>
+                                    </div>
+                                    <!-- End Project Details 
+                                </div>
+                            </div>
+                            <!-- End Project Item -->
+                            
+                            <!-- Start Project Item 
+                            <div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb 
+                                    <div class="portfolio-thumb">
+                                        <a href="#">
+                                            <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                            <img alt="" src="images/gal_6.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb -->
+                                    <!-- Start Project Details
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>Dialog Interaktif "Musik sebagai anak tiri industri kreatif" with Wamen Parekraf (Bpk. Sapta Nirwandar) & @dr_tompi</h4>
+                                            <!-- <span>Drawing</span> 
+                                        </a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>4</span></a>
+                                    </div>
+                                    <!-- End Project Details 
+                                </div>
+                            </div>
+                            <!-- End Project Item 
+                            
+                            <!-- Start Project Item 
+                            <div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb 
+                                    <div class="portfolio-thumb">
+                                        <a href="#">
+                                            <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                            <img alt="" src="images/gal_7.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb 
+                                    <!-- Start Project Details 
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>Penandatangan Mou HIPPI-Ditjen Pen @Kemendag</h4>
+                                            <!-- <span>Website</span>
+                                            <span>Ilustration</span> 
+                                        </a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>23</span></a>
+                                    </div>
+                                    <!-- End Project Details 
+                                </div>
+                            </div>
+                            <!-- End Project Item 
+                            
+                            <!-- Start Project Item
+                            <div class="portfolio-item item">
+                                <div class="portfolio-border">
+                                    <!-- Start Project Thumb
+                                    <div class="portfolio-thumb">
+                                        <a class="lightbox" title="This is an image title" href="http://placehold.it/1024x620/eee">
+                                            <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                                            <img alt="" src="images/gal_8.png" />
+                                        </a>
+                                    </div>
+                                    <!-- End Project Thumb 
+                                    <!-- Start Project Details 
+                                    <div class="portfolio-details">
+                                        <a href="#">
+                                            <h4>Lorem Ipsum Dolor</h4>
+                                            <!-- <span>Logo</span>
+                                            <span>Drawing</span> 
+                                        </a>
+                                        <a href="#" class="like-link"><i class="icon-heart-1"></i><span>1</span></a>
+                                    </div>
+                                    <!-- End Project Details 
+                                </div>
+                            </div>
+                            <!-- End Project Item
+                            -->
+                        </div>
+                    </div>
+                    <!-- End Recent Projects Carousel -->
+                    
+                    <!-- Divider -->
+                    <div class="hr1" style="margin-bottom:35px;"></div>
+                    
+                    <!-- Link To Portfolio -->
+                    <div class="text-center"><a href="#" class="btn-system btn-large border-btn"><i class="icon-brush"></i> View Full Galery</a></div>
+                    
+            </div>
+            <!-- End Full Width Section 5 -->         
+		</div>
+		<!-- End Full Width Sections Content -->
+      
+      
+      
+        
+		<!-- Start Footer -->
+        <footer>
+            <div class="container">
+                <div class="row footer-widgets">
+                  
+                    <!-- Start Contact Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget contact-widget">
+                            <h4>Dewan Pimpinan Pusat Himpunan Pengusaha Pribumi Indonesia<span class="head-line"></span></h4>
+                            <ul>
+                                <li><span>Address:</span> Jl. Salatiga No.3, Menteng Jakarta Pusat 10310</li>
+                                <li><span>Phone Number:</span> +62 21 3909795</li>
+                                <li><span>Fax Number:</span> +62 21 3916489 </li>
+                                <li><span>Email:</span> info@hippi.co.id</li>
+                                <li><span>Website:</span> www.hippi.co.id</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Contact Widget -->                  
+                    
+                    <!-- Start Twitter Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget twitter-widget">
+                            <h4>Twitter Feed<span class="head-line"></span></h4>
+                            <ul>
+                                <a class="twitter-timeline" width="300" height="350" href="https://twitter.com/hippi_pusat" data-widget-id="547634859972116480">Tweets by @hippi_pusat</a>
+                                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+                                    </script>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Twitter Widget -->
+                    
+                    <!-- Start Subscribe & Social Links Widget -->
+                    <div class="col-md-3">
+                        <div class="footer-widget mail-subscribe-widget">
+                            <h4>Get in touch<span class="head-line"></span></h4>
+                            <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
+                            <form class="subscribe">
+                                <input type="text" placeholder="mail@example.com">
+                                <input type="submit" class="main-button" value="Send">
+                            </form>
+                        </div>
+                        <div class="footer-widget social-widget">
+                            <h4>Follow Us<span class="head-line"></span></h4>
+                            <ul class="social-icons">
+                                <li>
+                                    <a class="facebook" href="http://facebook.com"><i class="icon-facebook-2"></i></a>
+                                </li>
+                                <li>
+                                    <a class="twitter" href="https://twitter.com/hippi_pusat"><i class="icon-twitter-2"></i></a>
+                                </li>                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Subscribe & Social Links Widget -->
+              
+                <!-- Start Copyright -->
+                <div class="copyright-section">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>© 2014 Himpunan Pengusaha Pribumi Indonesia - HIPPI - All Rights Reserved</p>
+                        </div>                                          
+                    </div>
+                </div>
+                <!-- End Copyright -->
+                
+            </div>
+        </footer>
+        <!-- End Footer -->
+      
+	</div>
+	<!-- End Container -->
+    
+    <!-- Go To Top Link -->
+    <a href="#" class="back-to-top"><i class="icon-up-open-1"></i></a>
+    
+    <div id="loader">
+    	<div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+    </div>
+  
+</body>
+</html>
