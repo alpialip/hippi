@@ -8,9 +8,9 @@
 	if($action == 'news'){
 		$tgl = $_POST['tgl'];
 		$jdl = $_POST['judul'];
-		$cont = $_POST['cont'];
+		$content = $_POST['content'];
     	$qrUpdate = "
-    		UPDATE news SET news_judul='".$jdl."', news_tanggal = '".$tgl."', news_content= '".$cont."'  WHERE news_id= ".$ids."
+    		UPDATE news SET news_judul='".$jdl."', news_tanggal = '".$tgl."', news_content= '".$content."'  WHERE news_id= ".$ids."
     	";
     	$result = mysql_query($qrUpdate);
     	header("Location: newscrud.php");
@@ -18,9 +18,9 @@
 	else if($action == 'act'){
 		$tgl = $_POST['tgl'];
 		$jdl = $_POST['judul'];
-		$cont = $_POST['cont'];
+		$content = $_POST['content'];
     	$qrUpdate = "
-    		UPDATE activity SET activity_judul='".$jdl."', activity_tanggal = '".$tgl."', activity_content= '".$cont."'  WHERE activity_id= ".$ids."
+    		UPDATE activity SET activity_judul='".$jdl."', activity_tanggal = '".$tgl."', activity_content= '".$content."'  WHERE activity_id= ".$ids."
     	";
     	$result = mysql_query($qrUpdate);
     	header("Location: activitycrud.php");
@@ -28,7 +28,7 @@
 	else if($action == 'gal'){
 
 		$jdl = $_POST['judul'];
-		$cont = $_FILES["fileToUpload"]["name"];
+		$content = $_FILES["fileToUpload"]["name"];
 
 		/*upload*/
 		$target_dir = "images/";
@@ -60,7 +60,7 @@
 		        //echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
 		        /*save database*/
 		    	$qrCreate = "
-		    		UPDATE galeri SET galeri_judul='".$jdl."', foto= '".$cont."'  WHERE galeri_id= ".$ids."
+		    		UPDATE galeri SET galeri_judul='".$jdl."', foto= '".$content."'  WHERE galeri_id= ".$ids."
 		    	";
 		    	$result = mysql_query($qrCreate);
 		    	header("Location: galerycrud.php");

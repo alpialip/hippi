@@ -1,3 +1,15 @@
+<script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea",
+    plugins: [
+        "advlist autolink lists link image charmap print preview anchor",
+        "searchreplace visualblocks code fullscreen",
+        "insertdatetime media table contextmenu paste"
+    ],
+    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+});
+</script>
 <?php
 include 'dbcon.php';
 $action = $_GET['action'];
@@ -56,12 +68,15 @@ $ids = $_GET['ids'];
 <form action="update.php" method="post" autocomplete="off"  enctype="multipart/form-data">
 		<input type="hidden" name="ids" value="<?php echo $ids;?>">
 		<input type="hidden" name="action" value="<?php echo $action;?>">
-		<input style="height:35px;margin-bottom:10px;float:left;width:225px;" name="judul" id="judul" type="text" class="form-control" value="<?php echo $judul;?>" >
+		<label for="judul">Judul</label>
+		<input style="" name="judul" id="judul" type="text" class="form-control" value="<?php echo $judul;?>" ><br/>
 		<?php
 			if ($action != 'gal') {
-				?>
-					<input style="height:35px;margin-bottom:10px;float:left;width:225px;" name="tgl" id="tgl" type="date" class="form-control" value="<?php echo $tanggal;?>">		
-					<textarea name="cont"><?php echo $content ;?></textarea>
+				?>	
+					<label for="tgl">Tanggal</label>
+					<input style="" name="tgl" id="tgl" type="date" class="form-control" value="<?php echo $tanggal;?>"><br/>
+					<label for="content">Isi</label>	
+					<textarea name="content"><?php echo $content ;?></textarea>
 				<?php
 			}
 			else
