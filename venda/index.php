@@ -348,7 +348,14 @@
                                 </div>
                                 <h3 class="post-title"><a href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1"><?php echo $resultNews['news_judul'];?></a></h3>
                                 <div class="post-content">
-                                    <p><?php echo $resultNews['news_content'];?><a class="read-more" href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1">Read More...</a></p>
+                                    <p><?php 
+                                            $pieces=explode("<!-- pagebreak -->",  $resultNews['news_content']);
+                                            echo $pieces[0];
+                                        ?>
+                                        <a class="read-more" href="https://twitter.com/hippi_pusat/status/513931856090112001/photo/1">
+                                            Read More...
+                                        </a>
+                                    </p>
                                 </div>
                             </div>
                         <?php
