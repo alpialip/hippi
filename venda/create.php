@@ -7,23 +7,24 @@
 	if($action == 'news'){
 		
 		$jdl = $_POST['judul'];
-		$cont = $_POST['cont'];
+		$content = $_POST['content'];
     	$qrCreate = "
     		INSERT INTO  news (
 				
 				news_judul,
-				news_tanggal ,
+				news_tanggal,
 				news_content
 				)
-				VALUES ('".$jdl."',  NOW(),  '".$cont ."')
+				VALUES ('".$jdl."',  NOW(),  '".$content."')
     	";
-    	$result = mysql_query($qrCreate);
+    	//echo $qrCreate;exit();
+    	$result = mysql_query($qrCreate) or die($qrCreate).mysql_error();
     	header("Location: newscrud.php");
 	}
 	else if($action == 'act'){
 		
 		$jdl = $_POST['judul'];
-		$cont = $_POST['cont'];
+		$content = $_POST['content'];
     	$qrCreate = "
     		INSERT INTO  activity (
 				
@@ -31,7 +32,7 @@
 				activity_tanggal ,
 				activity_content
 				)
-				VALUES ('".$jdl."',  NOW(),  '".$cont ."')
+				VALUES ('".$jdl."',  NOW(),  '".$content ."')
     	";
     	$result = mysql_query($qrCreate);
     	header("Location: activitycrud.php");
@@ -39,7 +40,7 @@
 	else if($action == 'gal'){
 		
 		$jdl = $_POST['judul'];
-		$cont = $_FILES["fileToUpload"]["name"];
+		$content = $_FILES["fileToUpload"]["name"];
 
 		/*upload*/
 		$target_dir = "images/";
@@ -75,7 +76,7 @@
 						
 						galeri_judul,foto
 						)
-						VALUES ('".$jdl."', '".$cont."')
+						VALUES ('".$jdl."', '".$content."')
 		    	";
 		    	$result = mysql_query($qrCreate);
 		    	header("Location: galerycrud.php");
